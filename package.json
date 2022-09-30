@@ -1,0 +1,27 @@
+{
+  "name": "weather-jsapp",
+  "version": "1.0.0",
+  "description": "Weather application built with vanilla JavaScript",
+  "main": "/",
+  "scripts": {
+    "build": "gh-pages --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecabrera78/weather-jsapp.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "ecabrera78",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecabrera78/weather-jsapp/issues"
+  },
+  "homepage": "https://ecabrera78.github.com/weather-jsapp",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
