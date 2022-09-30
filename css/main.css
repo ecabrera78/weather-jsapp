@@ -1,0 +1,100 @@
+:root {
+  --background: #a4c3b2;
+  --main-color: #eaf4f4;
+  --secondary-color: #6e8378;
+  --error-background: #ffa69e93;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--background);
+  font-family: 'Public Sans', sans-serif;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+main {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: var(--main-color);
+  font-weight: 400;
+}
+
+.details-container {
+  width: fit-content;
+  max-width: 400px;
+  padding:20px 40px;
+  box-shadow: 3px 3px 20px #6e8378,
+  -3px -3px 20px var(--main-color);
+  border-radius: 10px;
+}
+
+.details-container p {
+  color: var(--main-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.details-container .city-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.details-container .temperature {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.details-container .condition {
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  padding: 30px; 
+  background-color: var(--error-background);
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 3px 3px 5px #d78a83;
+}
+
+.error .error-message {
+  color: var(--main-color);
+  font-weight: 700;
+}
