@@ -1,6 +1,6 @@
 :root {
   --background: #a4c3b2;
-  --main-color: #eaf4f4;
+  --main-color: #2e3a3a;
   --secondary-color: #6e8378;
   --error-background: #ffa69e93;
 }
@@ -23,6 +23,7 @@ h1 {
   padding-bottom: 20px;
   text-align: center;
   color: var(--main-color);
+  font-size: 4rem;
 }
 
 main {
@@ -54,7 +55,7 @@ footer {
   max-width: 400px;
   padding:20px 40px;
   box-shadow: 3px 3px 20px #6e8378,
-  -3px -3px 20px var(--main-color);
+  -3px -3px 20px var(--secondary-color);
   border-radius: 10px;
 }
 
@@ -69,6 +70,7 @@ footer {
   font-size: 2rem;
   font-weight: 700;
   color: var(--secondary-color);
+  text-shadow: 2px 2px 5px #ffffffe0;
 }
 
 .details-container .temperature {
@@ -76,12 +78,13 @@ footer {
   font-weight: 700;
   padding-top: 15px;
   padding-bottom: 15px;
-  text-shadow: 2px 2px 5px var(--secondary-color),
-  -2px -2px 5px var(--main-color);
+  text-shadow: 2px 2px 5px #ffffffe0,
+  -2px -2px 5px var(--secondary-color);
 }
 
 .details-container .condition {
   font-size: 2rem;
+  font-weight: bold;
   display: inline-block;
   vertical-align:middle;
 }
