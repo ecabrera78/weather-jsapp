@@ -117,3 +117,53 @@ footer {
   color: var(--main-color);
   font-weight: 700;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .details-container {
+    max-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .details-container .city-name {
+    font-size: 2rem;
+  }
+
+  .details-container .temperature {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 740px) and (orientation: landscape) {
+  h1 {
+    font-size: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  main {
+    padding-top: 5px;
+  }
+
+  .details-container {
+    max-width: 300px;
+    padding: 10px 20px;
+  }
+
+  .details-container .city-name {
+    font-size: 2rem;
+  }
+
+  .details-container .temperature {
+    font-size: 4rem;
+  }
+}
